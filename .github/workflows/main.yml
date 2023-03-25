@@ -50,7 +50,7 @@ jobs:
         if: always()
         uses: andstor/copycat-action@v3
         with:
-          personal_token: ${{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}}
+          personal_token: ${{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}}
           src_path: /.
           dst_path: /
           # 你的用户名
