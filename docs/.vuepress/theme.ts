@@ -5,18 +5,18 @@ import sidebar from "./sidebar";
 
 export default hopeTheme({
   // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://www.yokiblog.work",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "贪玩の計算姬",
+    url: "https://www.yokiblog.work",
   },
 
   iconAssets: "iconfont",
   logo: "/logo.svg",
 
   // 是否全局启用路径导航
-  breadcrumb: false,
+  breadcrumb: true,
 
   // 页面元数据：贡献者，最后修改时间，编辑链接
   contributors: false,
@@ -68,22 +68,16 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
+    name: "贪玩の計算姬",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    description: "迷茫是因为书读的太少而想的太多",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      '少数派': [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
-      Wechat: "https://tc.seoipo.com/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "https://newzone.top/rss.xml",
+      GitHub: "https://github.com/hanami1216",
+      QQ:"https://www.qq.com",
+      Wechat: "https://postimg.cc/K4G6n7Fg",
+      Email: "https://www.qq.com/1151509140@qq.com",
     },
   },
   // 开发模式下是否启动热更新，显示所有更改并重新渲染
