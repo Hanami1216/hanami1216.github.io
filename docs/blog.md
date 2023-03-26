@@ -3,11 +3,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: 互联网小白
+title: 贪玩の計算姬
 #heroImage: /logo.svg
-heroText: 互联网小白
-tagline: 盛年不重来，一日难再晨
-bgImage: 
+heroText: 贪玩の計算姬
+tagline: 
+bgImage: /bgimage.jpg
 heroFullScreen: false
 #projects:
 #  - icon: project
