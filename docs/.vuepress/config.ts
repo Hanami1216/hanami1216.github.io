@@ -4,8 +4,13 @@ import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
-import { path } from "@vuepress/utils";
 import theme from "./theme";
+
+import { getDirname, path } from '@vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
+
+
 
 export default defineUserConfig({
   // 网站语言，默认为中文
@@ -35,7 +40,9 @@ export default defineUserConfig({
     "!.vuepress",
     "!node_modules",
   ],
-
+  alias: {
+    "@Home": path.resolve(__dirname, "components/Home.vue"),
+  },
   plugins: [
     // algolia 全文搜索：没设置爬虫的话，需删除 docsearchPlugin 区块以使用节点搜索
     docsearchPlugin({
